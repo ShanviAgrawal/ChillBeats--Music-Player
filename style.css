@@ -1,0 +1,148 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Poppins&display=swap');
+
+
+body{
+    background-color:black ;
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;    
+    width: 100%;   
+}
+
+ .navList a{
+    text-decoration: none;
+    color: white;   
+}
+
+
+nav .navItem a {
+    font-size: small;  
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #3D155F;
+    color: white;
+    
+}
+
+
+nav ul li{
+    padding: 0 12px;
+    
+}
+
+.brand img{
+    width: 80px;
+    height: 50px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 60vh;
+    
+    color: bl;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    width:70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('images/headpgone.png');
+    background-size: cover; 
+}
+.container .songItem{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer{
+    display: flex;
+    height:90px;
+    position: fixed;
+    background-color: #3D155F;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    color:white;
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 70vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 34px;
+
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: black;
+    
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+   
+}
+
+.songItem img{
+    width: 32px;
+    margin: 0 23px ;
+    border-radius: 50px;
+}
+
+.timestamp{
+    margin: 0 23px ;
+    
+}
+.timestamp i{
+
+cursor: pointer;
+}
+
+.songInfo {
+    color: white;
+    position: absolute;
+    left: 15vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
